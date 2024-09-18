@@ -1,0 +1,6 @@
+curl \
+  --header "Content-Type: application/json" \
+  -i \
+  -X POST \
+  -d "{}" \
+  https://empowercloud-server-fo4po2vqhq-an.a.run.app/proto.v1.HealthCheckService/HealthCheck -H "Authorization: Bearer "
